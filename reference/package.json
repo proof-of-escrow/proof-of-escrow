@@ -1,0 +1,23 @@
+{
+  "name": "proof-of-escrow-reference",
+  "version": "0.1.0",
+  "description": "Reference calculator for Proof of Escrow 0.1. Read-only, no dependencies.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/proof-of-escrow/proof-of-escrow.git",
+    "directory": "reference"
+  },
+  "homepage": "https://github.com/proof-of-escrow/proof-of-escrow#readme",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "poe": "src/cli.ts"
+  },
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.ts"
+  }
+}

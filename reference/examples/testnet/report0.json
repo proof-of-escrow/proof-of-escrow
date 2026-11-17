@@ -1,0 +1,52 @@
+{
+  "poe": "0.1",
+  "distribution": "019C3F775C164232DCE072F1B266A089AAF5DC777E8DDE9E3023867FDD8F96F0",
+  "epoch": 0,
+  "window": [
+    848172628,
+    848172688
+  ],
+  "ledgers": {
+    "open": {
+      "index": 22378222,
+      "hash": "8DC74D4610AAD4997A37EFAAD1E32059CA4B4E11262011F5B8A7A3BD16075D70"
+    },
+    "close": {
+      "index": 22378242,
+      "hash": "BF7090A6D90377B57CFF9A8D1C03039CBD69042E57939C9C924899FCC9F040DE"
+    }
+  },
+  "emission": "1000000000",
+  "locks": [
+    {
+      "owner": "rPy7LHYsenTciFA1fiatfK5rmuJ6JX2v5i",
+      "tx": "04FE417BBA31A393A95692E8A88A9C91CE8B088E3877ADDE693E29CBA16DB9F6",
+      "drops": "30000000",
+      "created": 848172631,
+      "unlock": 848179828
+    },
+    {
+      "owner": "rwqbtbndK6CFpWQZYx52L1iXumiFNQxoDk",
+      "tx": "740808A05388599FA2ABE6B05DAF5081A72138D492CEA105D24B6D0262CAA64E",
+      "drops": "10000000",
+      "created": 848172632,
+      "unlock": 848174431
+    }
+  ],
+  "payouts": [
+    {
+      "account": "rPy7LHYsenTciFA1fiatfK5rmuJ6JX2v5i",
+      "weight": "12312000000000",
+      "units": "861248838",
+      "amount": "861.248838"
+    },
+    {
+      "account": "rwqbtbndK6CFpWQZYx52L1iXumiFNQxoDk",
+      "weight": "1983520000000",
+      "units": "138751161",
+      "amount": "138.751161"
+    }
+  ],
+  "total_weight": "14295520000000",
+  "dust": "1"
+}

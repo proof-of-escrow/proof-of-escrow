@@ -1,0 +1,25 @@
+{
+  "poe": "0.1",
+  "name": "Testnet run",
+  "token": {
+    "currency": "EXA",
+    "issuer": "rLLmxcSXZRxj6WTvX6vKBaS2W7G5TY5yY8"
+  },
+  "pool": "rneDuMNX1tKhFH3psb5io2NtdC63bds3VD",
+  "start": "2026-11-16T19:30:28Z",
+  "epoch_seconds": 60,
+  "decimals": 6,
+  "schedule": [
+    {
+      "epochs": 10,
+      "per_epoch": "1000"
+    }
+  ],
+  "lock": {
+    "min_seconds": 120,
+    "max_seconds": 3600,
+    "min_drops": "1000000",
+    "existing": false
+  },
+  "exclude": []
+}
